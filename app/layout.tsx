@@ -1,22 +1,22 @@
-import type { Metadata } from 'next';
-import { Schibsted_Grotesk, Martian_Mono } from 'next/font/google';
-import './globals.css';
-import LightRays from '@/components/LightRays';
-import Header from '@/components/Header';
+import type { Metadata } from "next";
+import { Schibsted_Grotesk, Martian_Mono } from "next/font/google";
+import "./globals.css";
+import LightRays from "@/components/LightRays";
+import Header from "@/components/Header";
 
 const schibstedGrotesk = Schibsted_Grotesk({
-  variable: '--font-schibsted-grotesk',
-  subsets: ['latin'],
+  variable: "--font-schibsted-grotesk",
+  subsets: ["latin"],
 });
 
 const martianMono = Martian_Mono({
-  variable: '--font-martian-mono',
-  subsets: ['latin'],
+  variable: "--font-martian-mono",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: 'Dev Events',
-  description: "The Hub for Every Dev Event You Mustn't Miss!",
+  title: "Dev Events",
+  description: "The Hub for Every Dev Event You Mustn't Miss",
 };
 
 export default function RootLayout({
